@@ -1,0 +1,11 @@
+<!-- <pre>{{ launches | json }}</pre> -->
+<div class="launches-container">
+    <div class="launches" *ngFor="let launche of launches">
+        <p-card [header]="launche.mission_name" [style]="{'width': '25rem', 'margin-bottom': '2em'}" (click)="goToDetails(launche)">
+            <!-- <ng-template pTemplate="header">
+                <img alt="Card" src="assets/showcase/images/usercard.png">
+            </ng-template> -->
+            <p>{{ launche.details }}</p>
+        </p-card>
+    </div>
+</div>

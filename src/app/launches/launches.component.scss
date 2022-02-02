@@ -1,0 +1,10 @@
+.launches-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    p-card {
+        cursor: pointer;
+        margin: 0.5em;
+    }
+}
